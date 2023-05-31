@@ -1,0 +1,18 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 2201px;
+    background: #FFFFFF;
+}
+.header{
+    position: absolute;
+    width: 1440px;
+    height: 78px;
+    left: 0px;
+    top: 47px;
+    background-color: grey;
+}
+.logo{
+    margin-left: 242px;
+    margin-top: 20px;
+}
