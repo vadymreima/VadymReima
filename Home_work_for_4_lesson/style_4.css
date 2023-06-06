@@ -1,18 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body{
-    position: relative;
-    width: 1440px;
-    height: 2201px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: sans-serif, 'Roboto';
 }
-.header{
-    position: absolute;
-    width: 1440px;
-    height: 78px;
-    left: 0px;
-    top: 47px;
-    background-color: grey;
+
+
+header{
+    padding: 50px 0px 50px 0;
+    background-color: #eb0f0f;
 }
-.logo{
-    margin-left: 242px;
-    margin-top: 20px;
+.content-container{
+    width: 960px;
+    margin: 0 auto;
+    font-size: 0px;
+}
+.logo, .header-social {
+    display: inline-block;
+    background-color: #eb0f0f;
+    font-size: 40px;
+    width: 480px;
+}
+.logo_2:hover, .f_2:hover, .t_2:hover{
+    transform: scale(1.9);
+} 
+.header-social{
+    text-align: right;
+}
+
+
+.form-section{
+    padding: 50px 0;
+    background-color: #778dd0;
+}
+.form-section h1{
+    text-align: center;
+    font-size: 44px;
+    line-height: 16px;
+    line-height: 100%;
+}
+.form-section form{
+    text-align: center;
+}
+.form-section form input,
+.form-section form button {
+    display: inline-block;
+    border: none;
+}
+.form-section form input{
+    width: 560px;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 2px 0px 0px 2px;
+}
+.form-section form input::placeholder{
+    color: #999999;
+}
+.form-section button{
+    background: #A8863D;
+    border-radius: 0px 2px 2px 0px;
+    font-size: 30px;
+    padding: 10px 20px;
+    width: 240px;
+    margin-left: 6px;
+}
+.email{
+    padding-bottom: 100px;
+}
+button:hover{
+    background-color: rgb(76, 151, 2);
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+
+.unlimited-space{
+    margin: 0;
+    background-color: darkgrey;
+}
+h2{
+    text-align: center;
+    padding-top: 75px;
+    margin: 0;
+    font-family: 'roboto';
+    
+}
+p{
+    text-align: center;
+    padding-top: 35px;
+    margin: 0;
+    font-family: 'Roboto';
+}
+.infinity{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 83px;
+}
+
+
+.mobile_{
+    margin: 0;
+    background-color: rgb(250, 253, 253);
+}
+h2{
+    text-align: center;
+    padding-top: 75px;
+    margin: 0;
+    font-family: 'roboto';
+    
+}
+p{
+    text-align: center;
+    padding-top: 35px;
+    margin: 0;
+    font-family: 'roboto';
+}
+.mobile{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 83px;
+}
+
+
+.tell_your_friends{
+    margin: 0;
+    background-color: #778dd0;
+}
+.tell{
+    padding-top: 54px;
+    margin-top: 0;
+    font-family: 'roboto';
+}
+.want{
+    margin-top: 0;
+    font-family: 'roboto';
+    padding-top: 35px;
+}
+.tell_{
+    padding-top: 30px;
+    padding-bottom: 110px;
+    border-radius: 4px;
+    text-align: center;
+}
+.tell_ button{
+    width: 61px;
+    height: 22px;
+}
+
+
+.footer{
+    margin: 0;
+    background-color: rgb(21, 210, 182);
+}
+.logo_3{
+    text-align: center;
+    padding-top: 80px;
+}
+.footer_s{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.t_foot, .f_foot, .m_foot{
+        padding-left: 10px;
+        padding-right: 10px;
 }
