@@ -9,13 +9,13 @@ header{
     padding: 2.6%;
 }
 .head{
-    width: 100%;
-    margin: 0 auto;
+    display: inline-block;
     display: flex;
     justify-content: space-around;
 }
 .logo{
     margin-right: 150px;
+    display: block;
 }
 .nav{
     padding-top: 45px;
@@ -54,46 +54,43 @@ header{
 }
 section{
     display: flex;
-    margin: 0;
-    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.text2{
+    display: inline-block;
 }
 .text{
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 700;
     line-height: 83px;
-    letter-spacing: 0em;
-    text-align: left;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 100px; 
 }
 .img1{
-    width: 600px;
+    width: 793px;
     height: 486px;
-    margin-right: 150px;
-}
-.button2{
-    text-align: left;
 }
 .button3{
     width: 174px;
     height: 66px;
-    border-radius: 30px;
-    font-family: poppins;
-    font-size: 24px;
+    font-family: Poppins;
+    font-style: normal;
     font-weight: 700;
+    font-size: 24px;
     line-height: 36px;
-    cursor: pointer;
+    text-align: center;
     color: #147B43;
-    margin-left: -727px;
+    border-radius: 30px;
+    background: #F1F8F4;
     border: none;
-    
+    margin-left: 45px;
+    cursor: pointer;
 }
 .button3:hover{
     transform: scale(1.07);
     box-shadow: 8px 10px 5px 2px rgba(30, 30, 47, 0.2);
 }
-
 .foot{
     display: flex;
     margin: 0;
