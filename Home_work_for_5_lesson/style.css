@@ -111,25 +111,23 @@ header{
     margin: 0;
     justify-content: space-between;
     margin-left: 65px;
-}
-.Contact_Us, .Our_services, .Our_Company{
     margin-right: 50px;
-    
+    margin-top: 150px;
 }
-.title1, .title2, .title3{
+.foot a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: black;
+}
+.foot h2{
     font-family: Poppins;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
-    color: #000000;
+    color: black;
 }
-.foot a{
-    font-family: poppins;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    color: #000000;
-    text-decoration: none;
-}
-
