@@ -7,8 +7,9 @@ html, body{
 }
 body{
     background-image: url("images/back.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
+    background-attachment: fixed;
 }
 a{
     display: inline-block;
@@ -46,7 +47,8 @@ a{
     border: medium none; 
     background-image: none; 
     background: transparent;
-    background-color: transparent; 
+    background-color: transparent;
+    padding-right: 1%;
 }
 .section2 img{
     border-radius: 40px;
@@ -205,18 +207,51 @@ a{
 }
 
 
-.POPULAR{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 144.52%;
-    letter-spacing: 0.135em;
-    color: #FFFFFF;
+.container7{
     width: 86%;
-    margin: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
     margin-top: 5%;
+
+}
+.container7 .slaides{
+    margin-left: 30%;
+}
+.slider-nav{
+    display: flex;
+    align-items: center;
+}
+.slider-nav div{
+    border: 2px solid #FFF;
+    border-radius: 60%;
+    margin-left: 15%;
+}
+.popular h3{
+    color: #FFF;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 800;
+    line-height: 144.523%;
+    letter-spacing: 2.97px;
 }
 
-
-
+.container8{
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex; 
+}
+.container8>div{
+    padding: 0% 3% 5% 0%;
+}
+.age{
+    position: fixed;
+    bottom: 10%;
+    right: 0%;
+    background: rgba(255, 255, 255, 0.49);   
+    font-size: 24px;  
+    color: #FFFFFF;
+    border-left: 25px solid red;
+    padding: 12px 60px 12px 12px;
+}
