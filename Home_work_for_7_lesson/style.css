@@ -242,7 +242,9 @@ a{
     width: 86%;
     margin: 0 auto;
     margin-top: 2%;
-    display: flex; 
+    display: flex;
+    overflow: auto;
+    padding: 20px;
 }
 .container8>div{
     padding: 0% 3% 5% 0%;
