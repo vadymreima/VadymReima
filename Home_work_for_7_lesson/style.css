@@ -7,9 +7,10 @@ html, body{
 }
 body{
     background-image: url("images/back.png");
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    
 }
 a{
     display: inline-block;
@@ -40,26 +41,22 @@ a{
 }
 .section2 button{
     font-size: 3rem; 
-    color: #FFFFFF;
-    border: medium none;
-    border: medium none;
-    background-image: none; 
-    border: medium none; 
-    background-image: none; 
+    color: #FFFFFF; 
+    border: medium none;  
     background: transparent;
     background-color: transparent;
-    padding-right: 1%;
+    margin-left: 47rem;
 }
 .section2 img{
     border-radius: 40px;
-    margin-left: 8%;
+    margin-left: 40%;
 }
 .section2{
     width: 48%;
     margin-top: 3%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 
@@ -109,12 +106,17 @@ a{
     justify-content: start;
     align-items: center;
 }
-.container4>div{
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 36px;
+.container4 .color{
     color: #A7A6A6;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 500;
+}
+.container4 p{
+    color: #FFF;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 500;
 }
 
 
