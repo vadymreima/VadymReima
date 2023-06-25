@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    display: inline-block;
+}
+.header{
+    background-image: url("images/bg.png");
+    background-size: cover;
+    margin: 0;
+    height: 816px;
+}
+.header .logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 41px;
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+    padding-top:  265px;
+    color: #FFF;
+    font-size: 60px;
+    font-family: Bebas Neue;
+    margin: 1px;
+    letter-spacing: 5.709px;
+}
+.header h4{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 0px;
+}
+.header p{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 300px;
+}
+
+.navbar{
+    margin: 24px 0 24px 251px;
+    display: flex;
+    align-items: center;
+    width: 67%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 53%;
+}
+.nav div{
+    margin-left: 19%;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.091px;
+    color: #48555B;
+}
+
+.wrapper{
+    display: grid;
+    justify-content: center;
+    margin-top: 57px;
+}
+.wrapper div{
+    color: #48555B;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.306px;
+    border-bottom: 2px solid blue;
+    padding-bottom: 1px;
+} 
+
+.box{
+    display: grid; 
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    height: auto;
+    margin-top: 80px;
+    width: 67%;
+    margin: auto;
+    margin-top: 55px;
+ }
+ .box0{ 
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    color: #48555B;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.188px;
+    
+ }
+ .box1{ 
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    color: #48555B;
+    font-size: 13px;
+    font-family: OpenSans;
+    line-height: 23px;
+    letter-spacing: 0.188px;  
+ }
+ .box2{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+    text-align: center;
+    padding-top: 20px;
+ }
+ .box3{
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 3;
+    grid-column-end: 5;
+    text-align: center;
+    padding-top: 20px;
+ }
+ .box4{
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-row-end: 3;
+    grid-column-end: 6;
+    text-align: center;
+    padding-top: 20px;
+ }
+ 
