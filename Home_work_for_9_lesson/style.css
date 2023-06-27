@@ -11,7 +11,7 @@ a{
     display: inline-block;
 }
 .header{
-    background-image: url("images/bg.png");
+    background-image: url("images/bg1.png");
     background-size: cover;
     margin: 0;
     height: 816px;
@@ -139,6 +139,7 @@ a{
     grid-column-end: 5;
     text-align: center;
     padding-top: 20px;
+
     
  }
  .box4{
@@ -157,7 +158,7 @@ a{
  .angry-grid {
     width: 75%;
     display: grid; 
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
         'item0 item1 item1 item1 item1 item2'
@@ -165,6 +166,7 @@ a{
     height: auto;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 115px;
     
     
  }
@@ -174,6 +176,7 @@ a{
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 2px;
+    
 }
 .label1{
     grid-area: item1;
@@ -185,7 +188,7 @@ a{
 }
 .label2{
     grid-area: item2;
-    margin-left: 65px;
+    margin-left: 50px;
 }
 .angry-grid button{
     width: 150px;
@@ -204,6 +207,7 @@ a{
     border: 1px solid #E6E6E6;
     width: 350px;
     height: 330px;
+    margin-top: 70px;
 }
 
 .label3 img{
@@ -227,6 +231,7 @@ a{
     border: 1px solid #E6E6E6;
     width: 350px;
     height: 330px;
+    margin-top: 70px;
 }
 .label4 img{
     margin-left: 15px;
@@ -249,6 +254,7 @@ a{
     border: 1px solid #E6E6E6;
     width: 350px;
     height: 330px;
+    margin-top: 70px;
 }
 .label5 img{
     margin-left: 15px;
@@ -268,4 +274,229 @@ a{
 }
 .label4, .label5{
     margin-left: 50px;
+}
+
+
+.want_to_build{
+    background-image: url("images/bg.png");
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    height: 500px;
+    background-size: cover;
+}
+.want_to_build h2{
+    width: 350px;
+    height: 72px;
+    text-align: center;
+    margin-left: 600px;
+    color: #48555B;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    
+}
+.want_to_build button{
+    width: 150px;
+    height: 40px;
+    margin-left: 700px;
+    margin-bottom: 360px;
+    background: #00A4E5;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+
+.contact{
+    background-color: #171819;
+    height: 100px;
+}
+.contact .user_input{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.user_input span{
+    margin-right: 70px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.846px;
+}
+.user_input input{
+    width: 250px;
+    height: 40px;
+    color: #48555B;
+    font-size: 14px;
+    letter-spacing: 0.07px;
+    text-align: start;
+}
+.user_input button{
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #141A20;
+    height: 240px;
+    
+}
+
+
+.info {
+    display: grid; 
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+     'label0 label1 label2 label3 label4 label5 label6 label7';
+    gap: 0px;
+    height: 240px;
+    width: 75%;
+    margin: auto;
+ }
+ #item-0 { 
+    grid-area: label0;
+    width: 260px;
+ }
+ #item-0 h4{
+    color: #FFF;
+    font-size: 11px;
+    letter-spacing: 0.846px;
+    padding-top: 42px;
+    padding-bottom: 20px;
+ }
+ #item-0 img{
+    padding-bottom: 15px;
+ }
+ #item-0 p{
+    color: #FFF;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+ }
+ #item-1 { 
+    grid-area: label1;
+    padding-left: 225px;
+    width: 340px;
+ }
+ #item-1 p{
+    color: #FFF;
+    font-size: 11px;
+    letter-spacing: 0.846px;
+    padding-top: 45px;
+    padding-bottom: 12px;
+ }
+ #item-1 a{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.846px;
+ }
+ #item-2 { 
+    grid-area: label2;
+    padding-top: 72px;
+    
+ }
+ #item-2 a{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.846px;
+ }
+ #item-3 { 
+    grid-area: label3;
+    padding-top: 72px;
+    padding-left: 40px;
+ }
+ #item-3 a{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.846px;
+ }
+ #item-4 {
+    grid-area: label4;
+    padding-left: 40px;
+    
+ }
+ #item-4 p{
+    color: #FFF;
+    font-size: 11px;
+    letter-spacing: 0.846px;
+    padding-top: 45px;
+    padding-bottom: 12px;
+ }
+ #item-4 span{
+    color: #FFF;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846px;
+ }
+ #item-5 { 
+    grid-area: label5;
+    margin-left: 1px;
+    width: 135px;
+ }
+ #item-5 div{
+    margin-top: 75px;
+    margin-left: 25px;
+ }
+ #item-5 img{
+    margin-left: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.konstruct{
+    background-color: #171819;
+}
+.konstruct div{
+    padding-top: 20px;
+    padding-bottom: 23px;
+    text-align: center;
+    color: #FFF;
+    font-size: 11px;
+    letter-spacing: 0.846px;
 }
