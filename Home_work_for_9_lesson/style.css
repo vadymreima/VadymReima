@@ -504,3 +504,35 @@ a{
     font-size: 11px;
     letter-spacing: 0.846px;
 }
+
+
+.text_on_image .WE_PLAN{
+    position: absolute;
+    top: 241%;
+    left: 45%;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.188px;
+}
+.text_on_image .WE_MANAGE{
+    position: absolute;
+    top: 241%;
+    left: 60%;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.188px;
+}
+.text_on_image .WE_BUILD{
+    position: absolute;
+    top: 241%;
+    left: 75%;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.188px;
+}
