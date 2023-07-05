@@ -328,6 +328,14 @@ body{
     font-weight: 400;
     letter-spacing: 0.846px;
 }
+.footer .content .links .link{
+    padding-bottom: 15px;
+    color: #FFF;
+    font-size: 11px;
+    font-family: Open Sans;
+    font-weight: 400;
+    letter-spacing: 0.846px;
+}
 .footer .content .company p{
     padding-top: 15px;
     color: #FFF;
@@ -337,13 +345,7 @@ body{
     line-height: 19px;
     letter-spacing: 0.85px;
 }
-.footer .content .links{
-    width: 267px;
-    display: flex;
-    column-gap: 38px;
-}
-.footer .content .links{
-    padding-bottom: 10px;
+.footer .content .links .angry-grid a{
     color: #FFF;
     font-size: 11px;
     font-family: Open Sans;
@@ -351,19 +353,80 @@ body{
     line-height: 25px;
     letter-spacing: 0.846px;
 }
-.footer .content .links .link{
-    padding-bottom: 10px;
-}
-.links .b, .c{
-    padding-top: 35px;
-}
+.angry-grid {
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+     'label0 label5 label8'
+     'label1 label6 label9'
+     'label2 label7 label10'
+     'label3 . .'
+     'label4 . .';
+    column-gap: 34px;
+ }
+ #item-0 {
+    grid-area: label0;
+ }
+ #item-1 {
+    grid-area: label1;
+ }
+ #item-2 {
+    grid-area: label2;
+ }
+ #item-3 {
+    grid-area: label3;
+ }
+ #item-4{
+    grid-area: label4;
+ }
+ #item-5 { 
+    grid-area: label5;
+ }
+ #item-6 { 
+    grid-area: label6;
+ }
+ #item-7 { 
+    grid-area: label7;
+ }
+ #item-8 { 
+    grid-area: label8;
+ }
+ #item-9 { 
+    grid-area: label9;
+ }
+ #item-10 { 
+    grid-area: label10;
+ }
 
-.contact-us{
-    width: 141px;
 
-}
+ .content .contact-us{
+    width: 104px;
+ }
+ .content .contact-us p{
+    color: #FFF;
+    font-size: 11px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.846px;
+ }
+ .content .contact-us div{
+    padding-bottom: 15px;
+    color: #FFF;
+    font-size: 11px;
+    font-family: Open Sans;
+    font-weight: 400;
+    letter-spacing: 0.846px;
+ }
 
 
+
+ .socical {
+    width: 87px;
+    display: flex;
+    column-gap: 25px;
+ }
 
 
 
